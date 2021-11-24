@@ -171,7 +171,7 @@ h3 {
 }
 
 .photography {
-    background-image: url("/image-photography.jpg");
+    background-image: url("image-photography.jpg");
     color: hsl(198, 62%, 26%);
     width: 50%;
 }
@@ -243,7 +243,7 @@ h6 {
     color: hsl(167, 40%, 24%);
     font-weight: bolder;
     font-size: 2.5em;
-    padding-top: 12em;
+    padding-top: 2em;
 }
 
 .more {
@@ -265,7 +265,7 @@ h6 {
 }
 
 /* Mediaquery */
-@media screen and (max-width: 461px){
+@media screen and (max-width: 561px){
 
     header {
         background-image: url("image-header.jpg");
