@@ -1,0 +1,496 @@
+.attribution { font-size: 17px; text-align: center; background-color: hsl(168, 78%, 73%);}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url("https://fonts.google.com/specimen/Barlow");
+@import url("https://fonts.google.com/specimen/Fraunces");
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-image: url("images/desktop/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: 120vh;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.menu {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    color: hsl(0, 0%, 100%);
+    font-family: "Barlow", sans-serif;
+}
+
+.contact {
+    color: black;
+    border: solid 1px none;
+    border-radius: 50px;
+    padding: 7px 5px;
+    font-family: "Fraunces", sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+}
+
+.arrow-down {
+    text-align: center;
+    margin-top: 155px;
+}
+
+/* Transform section */
+
+.intro {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+h2 {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    width: 60%;
+    color: hsl(237, 12%, 33%);
+}
+
+.main-intro {
+    width: 50%;
+    text-align: left;
+    padding: 5em 0 0 7em;
+    
+}
+
+.main-intro p {
+    color: hsl(232, 10%, 55%);
+    width: 75%;
+    font-family: "Fraunces", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.link {
+    color: black;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid hsl(7, 99%, 70%);
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.intro-img {
+    max-width: 100%;
+    
+}
+
+/* Stand section */
+
+h3 {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    width: 75%;
+    color: hsl(212, 27%, 19%);
+}
+
+.stand-section {
+    display: flex;
+    align-items: center;
+}
+
+.stand p {
+    color: hsl(232, 10%, 55%);
+    width: 75%;
+    font-family: "Fraunces", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.stand-img  {
+    width: 48.5%;    
+}
+
+.stand {
+    box-sizing: border-box;
+    margin-left: 5em;
+}
+
+/* design and photography section */
+
+.design {
+    display: flex;
+    text-align: center;   
+}
+
+.graphic-design {
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    color: hsl(167, 40%, 24%);
+    width: 50%;    
+    
+}
+
+.photography {
+    background-image: url("images/desktop/image-photography.jpg");
+    color: hsl(198, 62%, 26%);
+    width: 50%;
+}
+
+.heading1, .heading3 {
+    padding: 20em 0 0 0;
+    font-weight: 900;
+}
+
+.heading2, .heading4 {
+    font-weight: 900;
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Fraunces", sans-serif;
+    padding-left: 11em;
+}
+
+
+/* Testimonial section */
+
+.testimonials{
+    width: 85%;
+    margin-left: 6em;
+    display:flex;
+    align-items: center;
+}
+
+h5 {
+    text-align: center;
+    color: rgb(187, 187, 187);
+    word-spacing: 6px;
+}
+
+.testimonial-img{
+    width: 60px;
+    border-radius: 50px;
+    justify-items: center;
+}
+
+.testimonial{
+    text-align: center;
+    margin: 20px 45px;
+    color: rgb(75, 75, 75);
+}
+
+/* Footer images */
+
+.footer-image {
+    margin-top: 2em;
+}
+
+.footer-image img {
+    width: 25%;
+    height: 15%;
+    float: left;
+}
+
+/* Footer */
+
+footer {
+    background-color: hsl(168, 78%, 73%);
+    text-align: center;
+    padding: 0em 0 5em 0;
+    font-family: "Barlow", sans-serif;
+}
+
+h6 {
+    color: hsl(167, 40%, 24%);
+    font-weight: bolder;
+    font-size: 2.5em;
+    padding-top: 12em;
+}
+
+.more {
+    margin-left: 24em;
+}
+
+.more li {
+    color: hsl(167, 40%, 24%);
+    float: left;
+    padding-left: 3.5em;
+}
+
+.social {
+    margin-top: 10em;
+}
+
+.links {
+    padding: 3em 0 0 1.5em;
+}
+
+/* Mediaquery */
+@media screen and (max-width: 461px){
+
+    header {
+        background-image: url("images/mobile/image-header.jpg");
+        height: 120vh;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    .menu {
+    	position: relative;
+        display: inline-block;
+        
+    }
+    
+    .dropbtn {
+    	cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        z-index: 1;
+        background-color: white;
+    }
+
+    .btn {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+    }
+
+	.dropdown-content a {			
+        color: grey;
+    }	
+
+	.show {
+        display:block;
+    }	
+
+    h1 {
+        font-weight: 800;
+        letter-spacing: .1em;
+    }
+
+    .arrow-down {
+        text-align: center;
+        margin-top: 255px;
+    }
+    
+    /* Transform section */
+    
+    .intro {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    h2 {
+        width: 70%;
+        padding-left: 2em;        
+    }
+
+    .main-intro {
+        width: 90%;
+        order: 2;
+        text-align: center;
+        padding: 2em 0 2em 0;
+    }
+
+    .main-intro p {
+        padding-left: 4em;        
+    }
+
+    .intro-img img {
+        order: 1;
+        width: 100%;
+        background-image: url("images/mobile/image-transform.jpg");
+    }
+
+    /* Stand section */
+
+    h3 {
+        
+        font-size: 1.5em;
+        width: 65%;
+        padding: 2em 0 0 3em;
+    }
+
+    .stand-section {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 2em;
+    }
+
+    .stand p {
+        width: 60%;
+        padding-left: 6.5em;        
+    }
+
+    .stand-img  {
+        width: 100%;  
+        order: 1;  
+    }
+
+    .stand {
+        margin-left: 0em;
+        order: 2;        
+    }
+    .link {
+        border-bottom: 2px solid hsl(7, 99%, 70%);
+    }
+
+    /* design and photography section */
+
+    .design {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;        
+    }
+    
+    .graphic-design { 
+        width: 100%;            
+    }
+    
+    .photography {
+        width: 100%;
+    }
+    
+    .heading1, .heading3 {
+        padding: 13em 0 0 0;
+        font-size: 25px;
+    }
+    
+    .heading2, .heading4 {
+        font-weight: 600;
+        width: 75%;
+        line-height: 1.6;
+        font-size: 14px;
+        padding: 0 0 2em 4em;
+    }
+
+    /* Testimonial section */
+
+    .testimonials{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }    
+		
+	h5 {
+        text-align: center;
+        color: rgb(187, 187, 187);
+        word-spacing: 6px;
+    }	
+		
+	.testimonial-img{
+        width: 60px;
+        border-radius: 50px;
+        justify-items: center;
+    }
+    
+    .testimonial{
+        text-align: center;
+        margin: 20px 45px;
+        color: rgb(75, 75, 75);
+    }	
+		
+	/* Footer images */
+
+    .footer-image {
+        margin: 2em 0 0 0;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .footer-image img {
+        width: 50%;
+        height: 15%;
+        float: left;
+    }	
+		
+	/* Footer */
+
+    footer {
+        background-color: hsl(168, 78%, 73%);
+        text-align: center;
+        padding: 0em 0 5em 0;
+        margin: 0;
+        font-family: "Barlow", sans-serif;
+    }
+    
+    h6 {
+        color: hsl(167, 40%, 24%);
+        font-weight: bolder;
+        font-size: 2.5em;
+        padding-top: 1em;
+    }
+    
+    .more {
+        margin-left: 0em;
+    }	
+		
+	.more li {
+        color: hsl(167, 40%, 24%);
+        float: left;
+        padding-left: 1.5em;
+    }
+    
+    .social {
+        margin-top: 10em;
+    }
+    
+    .links {
+        padding: 3em 0 0 1.5em;
+    }	
+
+    
+    
+}
